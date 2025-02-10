@@ -1,0 +1,86 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #212529;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #adb5bd;
+}
+
+/* Right-Aligned Links */
+.navbar .auth-links {
+    margin-left: auto;
+}
+
+.navbar .auth-links a {
+    color: #adb5bd;
+    font-size: 14px;
+}
+
+.navbar .auth-links a:hover {
+    color: white;
+}
+
+/* Content Section */
+.container {
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+p {
+    color: #6c757d;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
